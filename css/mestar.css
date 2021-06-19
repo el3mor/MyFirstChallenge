@@ -1,0 +1,114 @@
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  
+}
+
+.contener {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.header h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  margin: 0 0 0 0;
+  font-size: 2rem;
+}
+
+.header h2 {
+  color: hsl(234, 12%, 34%);
+  margin: 0 0 0 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header p {
+  color: hsl(229, 6%, 66%);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.warp {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.warp .box {
+  max-width: 350px;
+  max-height: 250px;
+  margin-top: 30px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 5px;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.33rem;
+  box-shadow: 0px 8px 13px 3px rgba(0, 0, 0, 0.13);
+  box-sizing: border-box;
+}
+
+.warp .box-cyan {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.warp .box-blue {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.warp .box-orange {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.warp .box-red {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.warp h4 {
+  margin-bottom: 10px;
+}
+
+.warp p {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.86rem;
+  font-weight: 200;
+  margin-top: 0;
+  line-height: 22px;
+}
+.warp .img {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 10px;
+}
+
+.attribution {
+  font-size: 17px;
+  text-align: center;
+  margin-top:90px;
+  
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1100px) {
+  .header {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .warp {
+    flex-direction: column;
+  }
+}
